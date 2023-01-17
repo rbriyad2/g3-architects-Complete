@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/*  ------Common CSS END------ */
+
+#main-header {
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-item a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    transition: all linear .3s;
+
+}
+
+.header-item a:hover {
+    color: #FF900E;
+}
+
+.header-item ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-item ul li {
+    list-style: none;
+    margin-right: 30px;
+    transition: all linear .3s;
+}
+
+.header-item ul li:last-child {
+    margin-right: 0;
+}
+
+.header-item ul li:hover a {
+    color: #FF900E;
+}
+
+.header-item ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #131313;
+}
+
+.banner-item {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.banner-item h1 {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 30px;
+}
+
+.banner-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 865px;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-top: 32px;
+    margin-bottom: 50px;
+    padding: 21px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* --------Feture CSS Start--------- */
+#feture {
+    margin-top: 85px;
+    margin-bottom: 130px;
+}
+
+.feture-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feture-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
+}
+
+.feture-left img {
+    margin-right: 24px;
+    margin-top: 24px;
+}
+
+.feture-right {
+    margin-left: 70px;
+    margin-top: 200px;
+
+}
+
+.feture-right h2 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+
+}
+
+.feture-right h2 b {
+    color: #131313;
+}
+
+.feture-right h2 span {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.feture-right p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-right: 50px;
+}
+
+/* ---------Exprience CSS Start--------- */
+#exprience {
+    margin-bottom: 130px;
+}
+
+.exprience-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exprience-left {
+    margin-right: 145px;
+}
+
+.exprience-header {
+    display: flex;
+}
+
+.border {
+    background: #FF900E;
+    width: 5px;
+    border-left: 5px solid #FF900E;
+    margin-right: 21px;
+}
+
+.exprience-header h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.exprience-left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.exprience-box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 30px 30px;
+    margin-top: 20px;
+}
+
+.exprience-box h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.exprience-box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.exprience-btn {
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 45px 42px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: -90px;
+}
+
+.exprience-btn h6 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* ------------Status CSS Start--------- */
+#status{
+    margin-bottom: 180px;
+}
+.status-item{
+
+}
+.status-item h2{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+.status-item p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+margin-top: 15px;
+width: 542px;
+margin-bottom: 100px;
+}
+.status-all-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.status-box{
+    border: 1px solid #FF900E;
+border-radius: 8px;
+padding: 45px 36px 60px 36px;
+text-align: center;
+}
+.status-box img{
+    width: 45px;
+    height: 45px;
+}
+.status-box h3{
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.status-box h6{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #727272;
+}
+/* ---------Footer CSS Start -----*/
+#footer{
+margin-bottom: 100px;
+}
+.footer-item{
+    text-align: center;
+}
+.footer-item h2{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+.footer-item p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin: 0 auto;
+color: #727272;
+width: 542px;
+margin-top: 20px;
+
+}
+.footer-sponser{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.copright-text{
+    background: #FFF4E7;
+border-radius: 8px;
+text-align: center;
+padding-top: 38px;
+padding-bottom: 38px;
+}
+.copright-text p{
+    font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #424242;
+
+}
