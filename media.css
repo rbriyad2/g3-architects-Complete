@@ -1,0 +1,561 @@
+@media (min-width:992px) and (max-width:1199px){
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 15px;
+    }
+    #main-header {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .banner-item h1 {
+        font-size: 30px;
+    }
+    .banner-item {
+        margin-top: 35px;
+    }
+    .banner-item p {
+        width: 70%;
+        padding: 0 20px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 13px 20px;
+    }
+    .banner-item img{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    #feture {
+        margin-top: 25px;
+        margin-bottom: 80px;
+    }
+    .feture-left {
+        margin-left: 20px;
+    }
+    .feture-right {
+        margin-left: 15px;
+        margin-top: 170px;
+    }
+    .feture-right h2 {
+        font-size: 35px;
+    }
+    .feture-right h2 span {
+        font-size: 35px;
+    }
+    .feture-right p{
+        padding-right: 0;
+    }
+    #exprience {
+        margin-bottom: 55px;
+    }
+
+    .exprience-header {
+        margin: 0 20px;
+    }
+    .exprience-header h2 {
+        font-size: 35px;
+        line-height: 35px;
+
+    }
+    .exprience-left p {
+        line-height: 23px;
+        padding: 0 15px;
+    }
+    .exprience-left {
+        margin-right: 50px;
+    }
+    .exprience-right{
+        margin-top: 150px;
+    }
+    .exprience-right img {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .exprience-btn {
+        padding: 20px 25px;
+        font-size: 40px;
+        margin-top: -100px;
+        margin-left: 67px;
+    }
+ 
+    #status {
+        margin-bottom: 55px;
+    }
+
+
+    .footer-item p {
+        width: 50%;
+        padding: 0 15px 15px 15px;
+    }
+    .footer-sponser {
+   
+        padding: 0 25px;
+        margin-bottom: 75px;
+    }
+
+    .footer-sponser img{
+        margin: 10px 0;
+    }
+    .copright-text p {
+        margin: 0 20px;
+    }
+    #footer {
+        margin-bottom: 0px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .container {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .header-item {
+        flex-direction: column;
+    }
+    .header-item a {
+        font-size: 30px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .header-item ul li a {
+        font-size: 25px;
+    }
+    .header-item ul {
+        margin: 0 auto;
+    }
+    .header-item ul li {
+        margin-right: 16px;
+    }
+    #main-header {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .banner-item h1 {
+        font-size: 30px;
+    }
+    .banner-item {
+        margin-top: 35px;
+    }
+    .banner-item p {
+        width: 80%;
+        padding: 0 20px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 13px 20px;
+    }
+    .banner-item img{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    #feture {
+        margin-top: 25px;
+        margin-bottom: 80px;
+    }
+    .feture-item {
+        flex-direction: column;
+    }
+    .feture-left {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 15px;
+        margin-right: 15px;
+        gap: 20px;
+    }
+    .feture-left img {
+       margin-right: 15px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .feture-right {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .feture-right h2 {
+        font-size: 35px;
+    }
+    .feture-right h2 span {
+        font-size: 35px;
+    }
+    #exprience {
+        margin-bottom: 55px;
+    }
+    .exprience-item {
+        flex-direction: column;
+    }
+    .exprience-header {
+        margin: 0 20px;
+    }
+    .exprience-header h2 {
+        font-size: 35px;
+        line-height: 35px;
+
+    }
+    .exprience-left p {
+        line-height: 23px;
+        padding: 0 15px;
+    }
+    .exprience-left {
+        margin-right: 0;
+    }
+    .exprience-right img {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .exprience-btn {
+        padding: 20px 25px;
+        font-size: 40px;
+        margin-top: -100px;
+        margin-left: 67px;
+    }
+    #status {
+        text-align: center;
+    }
+
+    .status-item h2 {
+        font-size: 30px;
+    }
+    .status-item p {
+        line-height: 23px;
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+  
+    .status-box {
+        margin: 15px;
+    }
+    #status {
+        margin-bottom: 55px;
+    }
+
+    .status-all-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-item p {
+        width: 100%;
+        padding: 0 15px 15px 15px;
+    }
+    .footer-sponser {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 25px;
+        margin-bottom: 75px;
+    }
+
+    .footer-sponser img{
+        margin: 10px 0;
+    }
+    .copright-text p {
+        margin: 0 20px;
+    }
+    #footer {
+        margin-bottom: 0px;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .container {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .header-item {
+        flex-direction: column;
+    }
+    .header-item a {
+        font-size: 21px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .header-item ul {
+        margin: 0 auto;
+    }
+    .header-item ul li {
+        margin-right: 16px;
+    }
+    #main-header {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .banner-item h1 {
+        font-size: 30px;
+    }
+    .banner-item {
+        margin-top: 35px;
+    }
+    .banner-item p {
+        width: 90%;
+        padding: 0 20px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 13px 20px;
+    }
+    .banner-item img{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    #feture {
+        margin-top: 25px;
+        margin-bottom: 80px;
+    }
+    .feture-item {
+        flex-direction: column;
+    }
+    .feture-left {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .feture-left img {
+       margin-right: 15px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .feture-right {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .feture-right h2 {
+        font-size: 35px;
+    }
+    .feture-right h2 span {
+        font-size: 35px;
+    }
+    #exprience {
+        margin-bottom: 55px;
+    }
+    .exprience-item {
+        flex-direction: column;
+    }
+    .exprience-header {
+        margin: 0 20px;
+    }
+    .exprience-header h2 {
+        font-size: 35px;
+        line-height: 35px;
+
+    }
+    .exprience-left p {
+        line-height: 23px;
+        padding: 0 15px;
+    }
+    .exprience-left {
+        margin-right: 0;
+    }
+    .exprience-right img {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .exprience-btn {
+        padding: 20px 25px;
+        font-size: 40px;
+        margin-top: -100px;
+        margin-left: 67px;
+    }
+    #status {
+        text-align: center;
+    }
+
+    .status-item h2 {
+        font-size: 30px;
+    }
+    .status-item p {
+        line-height: 23px;
+        width: 80%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+        margin: 0 auto;
+    }
+  
+    .status-box {
+        margin: 15px;
+    }
+    #status {
+        margin-bottom: 55px;
+    }
+
+    .status-all-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+    }
+
+    .footer-item p {
+        width: 90%;
+        padding: 0 15px 15px 15px;
+    }
+    .footer-sponser {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 25px;
+        margin-bottom: 75px;
+    }
+
+    .footer-sponser img{
+        margin: 10px 0;
+    }
+    .copright-text p {
+        margin: 0 20px;
+    }
+    #footer {
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 575.99px){
+    .container {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .header-item {
+        flex-direction: column;
+    }
+    .header-item a {
+        font-size: 21px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .header-item ul {
+        margin: 0 auto;
+    }
+    .header-item ul li {
+        margin-right: 16px;
+    }
+    #main-header {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .banner-item h1 {
+        font-size: 30px;
+    }
+    .banner-item {
+        margin-top: 35px;
+    }
+    .banner-item p {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 13px 20px;
+    }
+    .banner-item img{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    #feture {
+        margin-top: 25px;
+        margin-bottom: 80px;
+    }
+    .feture-item {
+        flex-direction: column;
+    }
+    .feture-left {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 15px;
+        margin-right: 15px;
+
+   
+    }
+    .feture-left img {
+       margin-right: 15px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .feture-right {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .feture-right h2 {
+        font-size: 35px;
+    }
+    .feture-right h2 span {
+        font-size: 35px;
+    }
+    #exprience {
+        margin-bottom: 55px;
+    }
+    .exprience-item {
+        flex-direction: column;
+    }
+    .exprience-header {
+        margin: 0 20px;
+    }
+    .exprience-header h2 {
+        font-size: 35px;
+        line-height: 35px;
+
+    }
+    .exprience-left p {
+        line-height: 23px;
+        padding: 0 15px;
+    }
+    .exprience-left {
+        margin-right: 0;
+    }
+    .exprience-right img {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .exprience-btn {
+        padding: 20px 25px;
+        font-size: 40px;
+        margin-top: -100px;
+        margin-left: 67px;
+    }
+    #status {
+        text-align: center;
+    }
+
+    .status-item h2 {
+        font-size: 30px;
+    }
+    .status-item p {
+        line-height: 23px;
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+    .status-all-box {
+        flex-direction: column;
+    }
+    .status-box {
+        margin: 15px;
+    }
+    #status {
+        margin-bottom: 55px;
+    }
+
+    .footer-item p {
+        width: 100%;
+        padding: 0 15px 15px 15px;
+    }
+    .footer-sponser {
+        flex-direction: column;
+        width: 70%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    .footer-sponser img{
+        margin: 10px 0;
+    }
+    .copright-text p {
+        margin: 0 20px;
+    }
+    #footer {
+        margin-bottom: 0px;
+    }
+}
